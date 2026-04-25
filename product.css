@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Navbar */
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+    color: #f8f9fa;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero .btn {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 25px;
+  }
+  
+  /* Products Section */
+  .products h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #5900ff;
+  }
+  
+  .card-text {
+    color: #555;
+    font-size: 1rem;
+  }
+  
+  .btn-primary {
+    background-color: #5900ff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #5900ff;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
+  /* Utility Classes */
+  .text-center {
+    text-align: center;
+  }
+  
+  .py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .mt-4 {
+    margin-top: 1.5rem;
+  }
+  
